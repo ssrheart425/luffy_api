@@ -12,4 +12,3 @@ def configure_logger():
     # logger.remove()  # 清除默认的日志处理器
     # logger.level("CRITICAL")
     logger.add(f"{LOG_PATH}", rotation="300 MB", level="ERROR")
-    print('ok')
